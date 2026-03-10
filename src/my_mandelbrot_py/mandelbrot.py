@@ -5,8 +5,8 @@ from PIL import Image
 
 def draw_mandelbrot(
     output_path: str,
-    width: int = 800,
-    height: int = 600,
+    width: int = 1000,
+    height: int = 800,
     max_iter: int = 1000,
     x_center: float = -0.5,
     y_center: float = 0.0,
